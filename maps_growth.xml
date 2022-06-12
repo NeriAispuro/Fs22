@@ -89,7 +89,7 @@
         </fruit>
 
         <!-- canola has 10 states -->
-        <fruit name="canola" initialState="9" >
+        <fruit name="canola" >
             <period index="1">
                 <update range="4-5" add="1" />
             </period>
