@@ -89,7 +89,7 @@
         </fruit>
 
         <!-- canola has 10 states -->
-        <fruit name="canola" >
+        <fruit name="canola" initialState="9" >
             <period index="1">
                 <update range="4-5" add="1" />
             </period>
@@ -255,19 +255,17 @@
                 <update range="5-6" add="1" />
             </period>
             <period index="8">
-                <update range="6" add="1" />
+                <update range="5-6" add="1" />
             </period>
             <period index="9">
                 <update range="6" add="1" />
             </period>
             <period index="10">
-				 <update range="6" add="1" />
+				 <update range="7" add="1" />
             </period>
             <period index="11">
-				<update range="6" add="1" />
             </period>
             <period index="12">
-				<update range="7" add="1" />
             </period>
         </fruit>
 
